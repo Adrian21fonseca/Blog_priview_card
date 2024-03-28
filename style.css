@@ -1,0 +1,129 @@
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: hsl(47, 88%, 63%);
+        font-family: sans-serif;
+    }
+
+
+
+    .contenedor{
+        width: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+        align-items: center;
+        border-color: black;
+        border-radius: 30px;
+        border: 1px solid;
+        box-shadow: 10px 10px black;
+
+        padding: 13px;
+
+        transition: .6s;
+    }
+
+.contenedor:hover{
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.675);
+    transition: 1s;
+}
+
+    .bner{
+        text-align: center;
+    }
+
+    .baner{
+        border-radius: 15px;
+        margin-top: 8px;
+
+        transition: .5s;
+    }
+
+    .baner:hover{
+        opacity: .5;
+        transition: 1s;
+        border-radius: 50px;
+    }
+
+    .learning{
+        display: inline-block;
+        background:hsl(47, 88%, 63%);
+        border-radius: 3px;
+        padding: 5px 12px 5px 12px;
+        margin: 33px 0 10px 9px;
+        font-size: 15px;
+        font-weight: 900;
+
+        transition: 1s;
+    }
+
+    .learning:hover{
+        cursor: context-menu;
+        border-radius: 13px;
+        background: hsl(47, 100%, 43%);
+        transition: 1.5s;
+    }
+
+    .Sub-titulo{
+        margin-left: 9px;
+        font-weight: 500;
+    }
+    
+    .titulo{
+        margin-left: 9px;
+        font-size: 23px;
+        font-weight: 800;
+        
+        transition: .6s;
+    }
+
+    .titulo:hover{
+        text-shadow: 0 0 30px hsl(47, 100%, 50%);
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .descripcion{
+        margin-left: 9px;
+        font-size: 17px;
+        color: hsl(0, 0%, 50%);
+    }
+
+    .end{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+
+    .avatar{
+        margin-left: 9px;
+        width: 40px;
+        height: 40px;
+
+        transition: .5s;
+    }
+
+    .avatar:hover{
+        transition: 1s;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nombre-avatar{
+        font-size: 18px;
+        font-weight: 800;
+
+        transition: .5s;
+    }
+
+    .nombre-avatar:hover{
+        transition: 1s;
+        cursor: pointer;
+        text-shadow: 0 0 20px hsl(47, 100%, 50%);
+        font-weight: 900;
+    }
